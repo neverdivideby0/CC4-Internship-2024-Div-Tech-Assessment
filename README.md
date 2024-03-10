@@ -27,6 +27,7 @@ cd CC4-Internship-2024-Div-Tech-Assessment
 ```
 
 Step 3. Install dependencies
+
 Ensure you have Python installed on your system.
 Then, install the required Python packages:
 ```bash
@@ -36,7 +37,6 @@ or
 ```bash
 pip3 install -r requirements.txt
 ```
-
 If you are using conda
 ```bash
 conda install pandas
@@ -44,16 +44,13 @@ conda install requests
 conda install openpyxl
 ```
 
-Running the Code
-Ensure you have the Country-Code.xlsx file in the project root directory.
-
+Step 4. Running the Code
 Finally, run the script using Python
 ```bash
-python CC4_Internship_2024_Div_Assessment
+python CC4_Internship_2024_Div_Assessment.py
 ```
 or
 ```bash
-```bash
-python3 CC4_Internship_2024_Div_Assessment
+python3 CC4_Internship_2024_Div_Assessment.py
 ```
 
