@@ -15,21 +15,45 @@ Ensure you have the following installed:
 - pandas
 - requests
 
-You can install the necessary Python packages using the following command:
-```bash
-pip install pandas requests
-```
 
 # Installation
-Clone the repository to your local machine:
+Step 1. Clone the repository to your local machine:
 ```bash
 git clone https://github.com/neverdivideby0/CC4-Internship-2024-Div-Tech-Assessment.git
 ```
-Navigate to the project directory:
+Step 2. Navigate to the project directory:
 ```bash
 cd CC4-Internship-2024-Div-Tech-Assessment
 ```
+
+Step 3. Install dependencies
+Ensure you have Python installed on your system.
+Then, install the required Python packages:
+```bash
+pip install -r requirements.txt
+```
+or
+```bash
+pip3 install -r requirements.txt
+```
+
+If you are using conda
+```bash
+conda install pandas
+conda install requests
+conda install openpyxl
+```
+
 Running the Code
 Ensure you have the Country-Code.xlsx file in the project root directory.
 
 Finally, run the script using Python
+```bash
+python CC4_Internship_2024_Div_Assessment
+```
+or
+```bash
+```bash
+python3 CC4_Internship_2024_Div_Assessment
+```
+
