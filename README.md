@@ -38,9 +38,13 @@ During the development of this solution, several assumptions and interpretations
 
 ## Assumptions for Task 1: Restaurant Data Extraction
 Restaurant ID Identification: It was assumed that the restaurant ID found within the path Restaurants >> restaurant >> R >> res_id is equivalent to Restaurants >> restaurant >> id. This assumption was based on the observation that both fields are present and seem to represent a unique identifier for each restaurant.
+Duplicate Restaurants: Duplicate restaurant names are kept as it is assumed that they may be different entries to Zomato's database as they are indentified by different restaurant_ids. This is to keep the integrity of the data. Users may subsequently deal with duplicates according to their needs. i.e Hitchki, Lord Of The Drinks, etc.
 
 ## Assumptions for Task 2: Restaurant Events Extraction
 Event Date Interpretation: For the extraction of restaurants that have past events in April 2019, the assumption was made that "past events" refers to any event with an end_date falling within April 2019. This decision was taken to focus on events that concluded in April, regardless of their start date.
+No more than 1 photo URL: It was assumed that there is no more than 1 photo URL for each event.
+Duplicate Events: Duplicate events are kept as it is assumed that they may be different entries to Zomato's database as they are indentified by different event_id. This is to keep the integrity of the data. Users may subsequently deal with duplicates according to their needs.
+
 
 ## Assumptions for Task 3: Rating Text Threshold Determination
 Rating Text Thresholds: It was assumed that Zomato uses minimum and maximum aggregate ratings to determine the threshold for different rating texts (Excellent, Very Good, Good, Average, Poor). This interpretation guided the analysis to categorize restaurants based on their user aggregate ratings into these discrete rating groups.
